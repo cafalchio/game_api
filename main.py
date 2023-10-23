@@ -1,21 +1,23 @@
 import os
 from fastapi import FastAPI
 import json
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Comment out or remove the CORSMiddleware setup
-# origins = [
-#     "*"
-# ]
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=origins,
-#     allow_credentials=True,
-#     allow_methods=["GET", "POST", "PUT", "DELETE"],
-#     allow_headers=["*"],
-# )
+origins = [
+    "https://diegocardenast.github.io/CodeBusters/",
+    "http://localhost",
+    "http://localhost:8000",
+    "*",
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 scores_file = "scores.json"
 
