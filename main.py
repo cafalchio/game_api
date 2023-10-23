@@ -5,8 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "https://diegocardenast.github.io/CodeBusters/",
-    "https://diegocardenast.github.io/CodeBusters/scores",
+    # "https://diegocardenast.github.io/CodeBusters/",
+    # "https://diegocardenast.github.io/CodeBusters/scores",
     "*"
 ]
 
