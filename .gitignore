@@ -1,0 +1,80 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__
+__pycache__/
+
+# Caches
+.cache/
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+*.log.*
+__logs/
+
+# IDE-specific files (e.g., PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.user
+*.userosscache
+*.suo
+.idea
+
+# Python-specific files
+*.pyc
+__pycache__/
+*.egg-info/
+*.egg/
+*.dist-info/
+__pycache__/
+*.egg-info/
+*.egg/
+
+# Compiled files
+*.pyo
+
+# Coverage output
+htmlcov/
+.coverage
+
+# .DS_Store (macOS file)
+.DS_Store
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor configurations
+*.editorconfig
+.editorconfig
+
+# PyCharm settings
+.idea/
+
+# Miscellaneous
+.svn
+*.swp
+*~
+
+# Compiled Python files
+*.pyc
+
+# Compiled Python files and bytecode
+*.pyc
+__pycache__/
