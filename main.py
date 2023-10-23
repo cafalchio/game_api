@@ -7,6 +7,7 @@ app = FastAPI()
 origins = [
     "https://diegocardenast.github.io/CodeBusters/",
     "https://diegocardenast.github.io/CodeBusters/scores",
+    "*"
 ]
 
 app.add_middleware(
